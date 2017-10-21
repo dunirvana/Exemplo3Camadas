@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UI", "1-UI", "{87DFC24F-E3AD-4EE1-BAD3-3ED627FE37BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-BLL", "2-BLL", "{728BEC05-7B94-4972-8B69-4433F57FC600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-DAL", "3-DAL", "{8FA6D60F-B063-4ABF-8FC7-2AEF2B1D8F3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-DTO", "4-DTO", "{2CC6872F-7C47-4408-9001-8B06E233A940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barao.Exemplo3Camadas.BLL", "Barao.Exemplo3Camadas.BLL\Barao.Exemplo3Camadas.BLL.csproj", "{9AC6F5A0-72A2-46BA-A1FB-B9A9A372B95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barao.Exemplo3Camadas.DAL", "Barao.Exemplo3Camadas.DAL\Barao.Exemplo3Camadas.DAL.csproj", "{35E11A72-FB4B-40EF-8B6B-AC6177AF403C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barao.Exemplo3Camadas.DTO", "Barao.Exemplo3Camadas.DTO\Barao.Exemplo3Camadas.DTO.csproj", "{2195AC83-F5BD-4BB2-8C2E-B867536F7C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barao.Exemplo3Camadas.UI", "Barao.Exemplo3Camadas.UI\Barao.Exemplo3Camadas.UI.csproj", "{1C753841-DD00-4EC7-8F05-ECCE201C542C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC6F5A0-72A2-46BA-A1FB-B9A9A372B95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC6F5A0-72A2-46BA-A1FB-B9A9A372B95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC6F5A0-72A2-46BA-A1FB-B9A9A372B95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC6F5A0-72A2-46BA-A1FB-B9A9A372B95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E11A72-FB4B-40EF-8B6B-AC6177AF403C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E11A72-FB4B-40EF-8B6B-AC6177AF403C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E11A72-FB4B-40EF-8B6B-AC6177AF403C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E11A72-FB4B-40EF-8B6B-AC6177AF403C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2195AC83-F5BD-4BB2-8C2E-B867536F7C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2195AC83-F5BD-4BB2-8C2E-B867536F7C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2195AC83-F5BD-4BB2-8C2E-B867536F7C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2195AC83-F5BD-4BB2-8C2E-B867536F7C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C753841-DD00-4EC7-8F05-ECCE201C542C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C753841-DD00-4EC7-8F05-ECCE201C542C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C753841-DD00-4EC7-8F05-ECCE201C542C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C753841-DD00-4EC7-8F05-ECCE201C542C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AC6F5A0-72A2-46BA-A1FB-B9A9A372B95B} = {728BEC05-7B94-4972-8B69-4433F57FC600}
+		{35E11A72-FB4B-40EF-8B6B-AC6177AF403C} = {8FA6D60F-B063-4ABF-8FC7-2AEF2B1D8F3B}
+		{2195AC83-F5BD-4BB2-8C2E-B867536F7C7F} = {2CC6872F-7C47-4408-9001-8B06E233A940}
+		{1C753841-DD00-4EC7-8F05-ECCE201C542C} = {87DFC24F-E3AD-4EE1-BAD3-3ED627FE37BA}
+	EndGlobalSection
+EndGlobal
