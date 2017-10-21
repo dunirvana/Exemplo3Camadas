@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace Barao.Exemplo3Camadas.BLL
 {
+    /// <summary>
+    /// Regras de negócio para nossa estrutura de clientes
+    /// </summary>
     public class ClienteBLO : IDisposable
     {
         private ClienteDAO dal = new ClienteDAO();
